@@ -87,7 +87,7 @@ function create_response($text, $message)
     if ($text == "/start") {
         return "Selamat Datang di BOT Wisata Batu, untuk mengetahui informasi tentang wisata apa saja di Kota Batu, ketikkan nama wisata yang ingin anda tuju";
     }else{
-        $conn=mysqli_connect("us-cdbr-iron-east-05.cleardb.net","be48be394c01ae","5c63cb14","heroku_e70b0b2d5f1e0f2");
+        $conn=mysqli_connect(""us-cdbr-east-02.cleardb.com","b9d3ba8ac3f4b2","f8d2a423","heroku_b07bcdaa006fc11");
         $nama_wisata = $text;
         $jum_input = count(explode(" ",$nama_wisata));
         // pecahan kata2
